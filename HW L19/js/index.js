@@ -1,0 +1,45 @@
+$('#myCarousel1').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    dots:false,
+    autoplay:false,
+    autoplayTimeout:0,
+    autoplayHoverPause:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        400:{
+            items:1
+        },
+        700:{
+            items:2
+        },
+        1000:{
+            items:2
+        }
+    }
+});
+
+
+$('#myCarousel2').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    dots:false,
+    autoplay:false,
+    autoplayTimeout:0,
+    autoplayHoverPause:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:4
+        }
+    }
+});
